@@ -2,7 +2,9 @@ name: Claude Code Warmup
 
 on:
   schedule:
-    - cron: '1 23 * * *'
+    - cron: '1 23 * * *'   # 07:01 TST
+    - cron: '1 4 * * *'    # 12:01 TST
+    - cron: '1 9 * * *'    # 17:01 TST
   workflow_dispatch: {}
 
 concurrency:
